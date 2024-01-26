@@ -14,6 +14,6 @@ public interface ReceitaRepository extends JpaRepository<Receita, Long> {
 
 	public List<Receita> findAllByCategoria(@Param("categoria") Categoria categoria);
 
-	public List<Receita> findAllByTituloReceitaContaingIgnoreCase(@Param("tituloReceita") String tituloReceita);
+	public List<Receita> findAllByTituloReceitaContainingIgnoreCase(@Param("tituloReceita") String tituloReceita);
 
 }

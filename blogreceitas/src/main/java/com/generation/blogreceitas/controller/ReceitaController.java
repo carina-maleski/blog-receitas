@@ -41,7 +41,7 @@ public class ReceitaController {
 
 	@GetMapping("/titulo/{tituloReceita}")
 	public ResponseEntity<List<Receita>> findByTituloReceita(@PathVariable String tituloReceita) {
-		return ResponseEntity.ok(receitaRepository.findAllByTituloReceitaContaingIgnoreCase(tituloReceita));
+		return ResponseEntity.ok(receitaRepository.findAllByTituloReceitaContainingIgnoreCase(tituloReceita));
 	}
 
 }
