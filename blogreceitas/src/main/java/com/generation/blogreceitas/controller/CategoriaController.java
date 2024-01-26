@@ -37,5 +37,5 @@ public class CategoriaController {
 	public ResponseEntity<List<Categoria>> findByCategoriaTitulo(@PathVariable String categoriaTitulo) {
 		return ResponseEntity.ok(categoriaRepository.findAllByTituloCategoriaContainingIgnoreCase(categoriaTitulo));
 	}
-	
+
 }

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blogreceitas.model.Categoria;
 import com.generation.blogreceitas.model.Receita;
 import com.generation.blogreceitas.repository.ReceitaRepository;
 
@@ -32,11 +31,6 @@ public class ReceitaController {
 	public ResponseEntity<Receita> findById(@PathVariable Long id) {
 		return receitaRepository.findById(id).map(ResponseEntity::ok)
 				.orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).build());
-	}
-
-	@GetMapping("/categoria/{categoria}")
-	public ResponseEntity<List<Receita>> findByCategoria(@PathVariable Categoria categoria) {
-		return ResponseEntity.ok(receitaRepository.findAllByCategoria(categoria));
 	}
 
 	@GetMapping("/titulo/{tituloReceita}")
