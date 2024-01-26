@@ -11,7 +11,6 @@ import com.generation.blogreceitas.model.Categoria;
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
 
-	public List<Categoria> findAllByTituloCategoriaContainingIgnoreCase(
-			@Param("tituloCategoria") String tituloCategoria);
+	public List<Categoria> findAllByTituloCategoriaContainingIgnoreCase(@Param("tituloCategoria") String tituloCategoria);
 	
 }
