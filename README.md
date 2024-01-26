@@ -3,6 +3,10 @@
 # Blog de Receitas (em Construção)
 ✅ Projeto Maven </br>
 ✅ Pacotes Model, Repository e Controller </br>
-⏹️ Criar classes Model: Categoria e Receita </br>
-⏹️ Criar classes Repository: Categoria e Receita </br>
-⏹️ Criar classes Controller: Categoria e Receita </br>
+✅ Criar classes Model: Categoria e Receita </br>
+✅ Criar classes Repository: Categoria e Receita </br>
+✅ Criar classes Controller: Categoria e Receita </br>
+✅ Métodos GET </br>
+⏹️ Método POST </br>
+⏹️ Método PUT </br>
+⏹️ Método DELETE </br>
