@@ -7,6 +7,8 @@
 ✅ Criar classes Repository: Categoria e Receita </br>
 ✅ Criar classes Controller: Categoria e Receita </br>
 ✅ Métodos GET </br>
-⏹️ Método POST </br>
-⏹️ Método PUT </br>
-⏹️ Método DELETE </br>
+✅ Método POST </br>
+✅ Método PUT </br>
+✅ Método DELETE </br>
+⏹️ Condicional de Categoria existente nos métodos put e post de Receitas </br>
+⏹️ Classes de Usuário </br>
